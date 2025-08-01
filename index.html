@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>桑葚活化田厝創生</title>
+
+  <!-- CSS & Font -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    .w3-sidebar a { font-family: "Roboto", sans-serif; }
+    body, h1, h2, h3, h4, h5, h6, .w3-wide {
+      font-family: "Montserrat", sans-serif;
+    }
+  </style>
+</head>
+
+<body class="w3-content w3-khaki" style="max-width:1200px">
+
+<!-- =============================== -->
+<!-- Sidebar 導覽選單 -->
+<!-- =============================== -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+  </div>
+
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+    <h5><b>計畫或專題執行</b></h5>
+
+    <!-- 年度選單 -->
+    <a onclick="myAccFunc(2016)" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align">
+      2016年<i class="fa fa-caret-down"></i>
+    </a>
+    <div id="2016" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="2016_01.html" class="w3-bar-item w3-button w3-light-grey">
+        <i class="fa fa-caret-right w3-margin-right"></i>敘說世代點亮田厝
+      </a>
+    </div>
+
+    <a onclick="myAccFunc(2017)" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align">
+      2017年<i class="fa fa-caret-down"></i>
+    </a>
+    <div id="2017" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="2017_01.html" class="w3-bar-item w3-button w3-light-grey">
+        <i class="fa fa-caret-right w3-margin-right"></i>士農工商點亮田厝
+      </a>
+    </div>
+
+    <a onclick="myAccFunc(2018)" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align">
+      2018年<i class="fa fa-caret-down"></i>
+    </a>
+    <div id="2018" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="2018_01.html" class="w3-bar-item w3-button w3-light-grey">
+        <i class="fa fa-caret-right w3-margin-right"></i>桑田故事點亮田厝
+      </a>
+    </div>
+
+    <a onclick="myAccFunc(2019)" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align">
+      2019年<i class="fa fa-caret-down"></i>
+    </a>
+    <div id="2019" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="2019_01.html" class="w3-bar-item w3-button w3-light-grey">
+        <i class="fa fa-caret-right w3-margin-right"></i>雙輪田厝文化桑葚故鄉漫遊
+      </a>
+      <a href="2019_02.html" class="w3-bar-item w3-button w3-light-grey">
+        <i class="fa fa-caret-right w3-margin-right"></i>回顧前瞻點亮田厝
+      </a>
+    </div>
+
+    <a onclick="myAccFunc(2020)" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align">
+      2020年<i class="fa fa-caret-down"></i>
+    </a>
+    <div id="2020" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="2020_01.html" class="w3-bar-item w3-button w3-light-grey">
+        <i class="fa fa-caret-right w3-margin-right"></i>田厝農村創新創業再生之研究
+      </a>
+    </div>
+
+    <a onclick="myAccFunc(2021)" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align">
+      2021年<i class="fa fa-caret-down"></i>
+    </a>
+    <div id="2021" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="2021_01.html" class="w3-bar-item w3-button w3-light-grey">
+        <i class="fa fa-caret-right w3-margin-right"></i>雙輪體驗桑機再現計畫
+      </a>
+    </div>
+  </div>
+
+  <a href="plan_inquiry.html" class="w3-bar-item w3-button w3-padding">計劃資訊</a>
+  <a href="#footer" class="w3-bar-item w3-button w3-padding">聯絡我們</a>
+</nav>
+
+<!-- =============================== -->
+<!-- 主內容區 -->
+<!-- =============================== -->
+<div class="w3-main" style="margin-left:250px">
+
+  <!-- 上方導覽列（小螢幕空白） -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+
+  <!-- 頁首：社群連結與主圖 -->
+  <header class="w3-container w3-xlarge w3-margin">
+    <div class="w3-bar w3-white w3-hide-small">
+      <a href="https://www.facebook.com/groups/467930188381943/about" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+      <a href="https://www.instagram.com/stust_imi_mulberry/" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+      <a href="index.html" class="w3-bar-item w3-button w3-right"><i class="fa fa-home"></i></a>
+    </div>
+  </header>
+
+  <!-- 主視覺圖片 -->
+  <div class="w3-display-container w3-container w3-margin-top">
+    <img src="img/header.jpeg" alt="田厝主視覺圖片" style="width:100%">
+    <div class="w3-display-topright w3-text-black" style="padding:24px 48px">
+      <h1 class="w3-jumbo w3-hide-small w3-right">田厝創生</h1>
+    </div>
+  </div>
+
+  <!-- 圖片內容區 -->
+  <div class="w3-row">
+    <div class="w3-col s4">
+      <div class="w3-container">
+        <img src="img/2016.png" alt="田厝耆老說故事團隊" style="width:100%" class="w3-border w3-padding w3-hover-opacity" height="200">
+        <b>田厝耆老說故事團隊</b>
+      </div>
+      <div class="w3-container">
+        <img src="img/2017.jpg" alt="甘氏宗親族譜系統圖" style="width:100%" class="w3-border w3-padding w3-hover-opacity" height="200">
+        <b>甘氏宗親族譜3大房的查詢系統圖</b>
+      </div>
+    </div>
+
+    <div class="w3-col s4">
+      <div class="w3-container">
+        <img src="img/2018.png" alt="微電影成果展" style="width:100%" class="w3-border w3-padding w3-hover-opacity" height="200">
+        <b>微電影成果展現場</b>
+      </div>
+      <div class="w3-container">
+        <img src="img/2019_1.png" alt="黃素美區長演說" style="width:100%" class="w3-border w3-padding w3-hover-opacity" height="200">
+        <b>黃素美區長蒞臨演說</b>
+      </div>
+    </div>
+
+    <div class="w3-col s4">
+      <div class="w3-container">
+        <img src="img/2019_2.jpg" alt="田厝社區金獅陣團隊" style="width:100%" class="w3-border w3-padding w3-hover-opacity" height="200">
+        <b>田厝社區金獅陣團隊</b>
+      </div>
+      <div class="w3-container">
+        <img src="img/2020.png" alt="農村創新創業研究" style="width:100%" class="w3-border w3-padding w3-hover-opacity" height="200">
+        <b>田厝農村創新創業再生之研究</b>
+      </div>
+    </div>
+  </div>
+
+  <!-- =============================== -->
+  <!-- Footer 聯絡我們 -->
+  <!-- =============================== -->
+  <footer class="w3-padding-64 w3-blue-grey w3-small w3-center" id="footer">
+    <div class="w3-row-padding">
+      <div class="w3-col s4">
+        <h4>與我們聯繫</h4>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
+          <button type="submit" class="w3-button w3-block w3-light-green">傳送</button>
+        </form>
+      </div>
+
+      <div class="w3-col s4">
+        <h4>About us</h4>
+        <p>南台科技大學 工業管理與資訊系</p>
+      </div>
+
+      <div class="w3-col s4 w3-justify">
+        <p><i class="fa fa-fw fa-map-marker"></i> 南台科技大學</p>
+        <p><i class="fa fa-fw fa-phone"></i> 0988182252</p>
+        <p><i class="fa fa-fw fa-envelope"></i> 4A755050</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="w3-yellow w3-center w3-padding-24">
+    &copy; 2022 南台科大(工業管理與資訊系)
+  </div>
+</div>
+
+<!-- =============================== -->
+<!-- JS 功能：展開選單與側欄控制 -->
+<!-- =============================== -->
+<script>
+  function myAccFunc(id) {
+    var element = document.getElementById(id);
+    if (element.className.indexOf("w3-show") == -1) {
+      element.className += " w3-show";
+    } else {
+      element.className = element.className.replace(" w3-show", "");
+    }
+  }
+
+  function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+  }
+
+  function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+  }
+</script>
+
+</body>
+</html>
